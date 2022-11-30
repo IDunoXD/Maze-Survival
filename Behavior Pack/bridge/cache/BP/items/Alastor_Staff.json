@@ -1,0 +1,61 @@
+{
+	"file_path": "C:\\Users\\keks\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP\\items\\alastor_staff.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "11f7afcc_912e_4779_90c8_67f8639bee7e",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "test:alastor_staff"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "test:alastor_staff"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "test:alastor_staff"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "test:alastor_staff"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:max_stack_size": 1
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,161 @@
+{
+	"entity": {
+		"BP/entities/placeholder.json": {
+			"events": [
+				"test:invisible"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"test:placeholder"
+			],
+			"animation_references": [],
+			"families": [
+				"placeholder"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/cart.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"test:cart"
+			],
+			"animation_references": [],
+			"families": [
+				"cart"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"rp_animation": {
+		"RP/animations/placeholder.animation.json": {
+			"ids": [
+				"animation.placeholder.idle"
+			]
+		}
+	},
+	"rp_animation_controller": {
+		"RP/animation_controllers/placeholder.json": {
+			"ids": [
+				"controller.animation.placeholder.idle"
+			]
+		},
+		"RP/animation_controllers/cart.json": {
+			"ids": [
+				"controller.animation.cart"
+			]
+		}
+	},
+	"client_entity": {
+		"RP/entity/placeholder.json": {
+			"identifiers": [
+				"test:placeholder"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"idle"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/cart.json": {
+			"identifiers": [
+				"test:cart"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move_f",
+				"move_b",
+				"controller"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/alastor_staff.json": {
+			"identifiers": [
+				"test:alastor_staff"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"item": {
+		"BP/items/fireball_spell.json": {
+			"identifiers": [
+				"test:fireball_spell"
+			],
+			"custom_commands": []
+		},
+		"BP/items/Alastor_Staff.json": {
+			"identifiers": [
+				"test:alastor_staff"
+			],
+			"custom_commands": []
+		},
+		"BP/items/alastor_staff.json": {
+			"identifiers": [
+				"test:alastor_staff"
+			],
+			"custom_commands": []
+		},
+		"BP/items/placeholder.json": {
+			"identifiers": [
+				"test:spawn"
+			],
+			"custom_commands": []
+		}
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"file_path": "C:\\Users\\keks\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP\\animation_controllers\\placeholder.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "11fed14e_3e66_4fcd_aa4b_07e3b689407c",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.placeholder.idle": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										"idle"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.placeholder.idle": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"animations": [
+											"idle"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.placeholder.idle",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"animations": [
+												"idle"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"animations": [
+													"idle"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"idle"
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"idle"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

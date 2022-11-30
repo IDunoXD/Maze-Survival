@@ -1,0 +1,13 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "test:alastor_staff"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1
+		},
+		"events": {}
+	}
+}

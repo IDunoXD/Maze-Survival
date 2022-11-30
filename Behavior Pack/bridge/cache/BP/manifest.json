@@ -1,0 +1,199 @@
+{
+	"file_path": "C:\\Users\\keks\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP\\manifest.json",
+	"file_type": "manifest_bp",
+	"format_version": 1,
+	"file_uuid": "c137dafb_7b8f_4464_8bb8_1a267f894bb4",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "2",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"uuid": "71c24ae7-3bf4-4cfb-9714-d4cdba04f396",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							16,
+							200
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "8cce15d5-8ba3-423a-b088-b58502936742",
+							"version": [
+								1,
+								0,
+								0
+							]
+						},
+						{
+							"type": "client_data",
+							"uuid": "af2901e8-1c2c-4e69-943f-347846788d1b",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "9f5ac898-bb3f-4575-9c9f-a2ef4faee69d"
+						}
+					]
+				},
+				"key": "header",
+				"children": [
+					{
+						"data": "pack.name",
+						"key": "name"
+					},
+					{
+						"data": "pack.description",
+						"key": "description"
+					},
+					{
+						"data": "71c24ae7-3bf4-4cfb-9714-d4cdba04f396",
+						"key": "uuid"
+					},
+					{
+						"key": "version",
+						"is_minified": true,
+						"children": [
+							1,
+							0,
+							0
+						]
+					},
+					{
+						"open": {
+							"name": "pack.name",
+							"description": "pack.description",
+							"uuid": "71c24ae7-3bf4-4cfb-9714-d4cdba04f396",
+							"version": [
+								1,
+								0,
+								0
+							],
+							"min_engine_version": [
+								1,
+								16,
+								200
+							]
+						},
+						"key": "min_engine_version",
+						"is_minified": true,
+						"children": [
+							1,
+							16,
+							200
+						]
+					}
+				]
+			},
+			{
+				"key": "modules",
+				"is_minified": true,
+				"children": [
+					{
+						"type": "data",
+						"uuid": "8cce15d5-8ba3-423a-b088-b58502936742",
+						"version": [
+							1,
+							0,
+							0
+						]
+					},
+					{
+						"type": "client_data",
+						"uuid": "af2901e8-1c2c-4e69-943f-347846788d1b",
+						"version": [
+							1,
+							0,
+							0
+						]
+					}
+				]
+			},
+			{
+				"open": {
+					"format_version": 2,
+					"header": {
+						"name": "pack.name",
+						"description": "pack.description",
+						"uuid": "71c24ae7-3bf4-4cfb-9714-d4cdba04f396",
+						"version": [
+							1,
+							0,
+							0
+						],
+						"min_engine_version": [
+							1,
+							16,
+							200
+						]
+					},
+					"modules": [
+						{
+							"type": "data",
+							"uuid": "8cce15d5-8ba3-423a-b088-b58502936742",
+							"version": [
+								1,
+								0,
+								0
+							]
+						},
+						{
+							"type": "client_data",
+							"uuid": "af2901e8-1c2c-4e69-943f-347846788d1b",
+							"version": [
+								1,
+								0,
+								0
+							]
+						}
+					],
+					"dependencies": [
+						{
+							"version": [
+								1,
+								0,
+								0
+							],
+							"uuid": "9f5ac898-bb3f-4575-9c9f-a2ef4faee69d"
+						}
+					]
+				},
+				"key": "dependencies",
+				"is_minified": true,
+				"children": [
+					{
+						"version": [
+							1,
+							0,
+							0
+						],
+						"uuid": "9f5ac898-bb3f-4575-9c9f-a2ef4faee69d"
+					}
+				]
+			}
+		]
+	}
+}

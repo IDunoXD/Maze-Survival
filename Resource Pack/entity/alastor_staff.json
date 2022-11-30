@@ -1,0 +1,15 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "test:alastor_staff",
+			"textures": {
+				"default": "textures/entity/alastor_staff"
+			},
+			"geometry": {
+				"default": "geometry.alastor_staff"
+			}
+		}
+	}
+}

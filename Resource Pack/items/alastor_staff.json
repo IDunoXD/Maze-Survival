@@ -1,0 +1,20 @@
+//bridge-file-version: #10
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "test:alastor_staff"
+		},
+		"components": {
+			"minecraft:display_name": {},
+			"minecraft:render_offsets": "trident",
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.alastor_staff"
+			},
+			"minecraft:icon": {
+				"texture": "alastor_staff"
+			}
+		},
+		"events": {}
+	}
+}

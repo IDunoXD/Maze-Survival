@@ -1,0 +1,16 @@
+//bridge-file-version: #3
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"fireball_spell": {
+			"textures": "textures/items/placeholder_spawn"
+		},
+		"spawn": {
+			"textures": "textures/items/placeholder_spawn"
+		},
+		"alastor_staff": {
+			"textures": "textures/items/placeholder_spawn"
+		}
+	}
+}

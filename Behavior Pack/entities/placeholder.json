@@ -1,0 +1,72 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "test:placeholder",
+			"runtime_identifier": "test:placeholder",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {
+			"test:become_invisible": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "invisibility",
+							"ambient": false,
+							"visible": false,
+							"amplifier": 0,
+							"duration": 999999
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"placeholder"
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.5,
+				"height": 0.5
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:breathable": {
+				"breathes_solids": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"test": "has_damage",
+								"value": "fatal"
+							}
+						},
+						"deals_damage": false
+					}
+				]
+			}
+		},
+		"events": {
+			"test:invisible": {
+				"add": {
+					"component_groups": [
+						"test:become_invisible"
+					]
+				}
+			}
+		}
+	}
+}

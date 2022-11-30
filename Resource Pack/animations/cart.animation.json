@@ -1,0 +1,29 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cart.wheels_forward": {
+			"loop": true,
+			"bones": {
+				"wheels_b": {
+					"rotation": ["query.modified_distance_moved*30", 0.0, 0.0]
+				},
+				"wheels_f": {
+					"rotation": ["query.modified_distance_moved*30", 0.0, 0.0]
+				}
+			}
+		},
+		"animation.cart.wheels_backward": {
+			"loop": true,
+			"bones": {
+				"wheels_b": {
+					"rotation": ["query.modified_distance_moved*-30", 0.0, 0.0]
+				},
+				"wheels_f": {
+					"rotation": ["query.modified_distance_moved*-30", 0.0, 0.0]
+					}
+				}
+			}
+		}
+	}
+}

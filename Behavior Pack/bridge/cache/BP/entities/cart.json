@@ -1,0 +1,190 @@
+{
+	"file_path": "C:\\Users\\keks\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\BP\\entities\\cart.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "0d71b808_e5d6_407f_b120_d52d54618d49",
+	"file_version": 32,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "test:cart",
+							"runtime_identifier": "test:cart",
+							"is_summonable": true,
+							"is_spawnable": true
+						},
+						"component_groups": {},
+						"components": {
+							"minecraft:nameable": {},
+							"minecraft:type_family": {
+								"family": [
+									"cart"
+								]
+							},
+							"minecraft:health": {
+								"value": 1,
+								"max": 1
+							},
+							"minecraft:collision_box": {
+								"width": 0.8,
+								"height": 0.5
+							},
+							"minecraft:physics": {
+								"has_gravity": true,
+								"has_collision": true
+							},
+							"minecraft:breathable": {
+								"breathes_solids": true
+							},
+							"minecraft:rideable": {
+								"seat_count": 1,
+								"family_types": [
+									"player"
+								],
+								"interact_text": "action.interact.mount",
+								"seats": {
+									"position": [
+										0,
+										0.2,
+										-0.2
+									]
+								}
+							},
+							"minecraft:movement": {
+								"value": 0.3
+							},
+							"minecraft:input_ground_controlled": {}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "test:cart",
+							"runtime_identifier": "test:cart",
+							"is_summonable": true,
+							"is_spawnable": true
+						}
+					},
+					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "test:cart",
+								"runtime_identifier": "test:cart",
+								"is_summonable": true,
+								"is_spawnable": true
+							},
+							"component_groups": {},
+							"components": {
+								"minecraft:nameable": {},
+								"minecraft:type_family": {
+									"family": [
+										"cart"
+									]
+								},
+								"minecraft:health": {
+									"value": 1,
+									"max": 1
+								},
+								"minecraft:collision_box": {
+									"width": 0.8,
+									"height": 0.5
+								},
+								"minecraft:physics": {
+									"has_gravity": true,
+									"has_collision": true
+								},
+								"minecraft:breathable": {
+									"breathes_solids": true
+								},
+								"minecraft:rideable": {
+									"seat_count": 1,
+									"family_types": [
+										"player"
+									],
+									"interact_text": "action.interact.mount",
+									"seats": {
+										"position": [
+											0,
+											0.2,
+											-0.2
+										]
+									}
+								},
+								"minecraft:movement": {
+									"value": 0.3
+								},
+								"minecraft:input_ground_controlled": {}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:nameable": {},
+							"minecraft:type_family": {
+								"family": [
+									"cart"
+								]
+							},
+							"minecraft:health": {
+								"value": 1,
+								"max": 1
+							},
+							"minecraft:collision_box": {
+								"width": 0.8,
+								"height": 0.5
+							},
+							"minecraft:physics": {
+								"has_gravity": true,
+								"has_collision": true
+							},
+							"minecraft:breathable": {
+								"breathes_solids": true
+							},
+							"minecraft:rideable": {
+								"seat_count": 1,
+								"family_types": [
+									"player"
+								],
+								"interact_text": "action.interact.mount",
+								"seats": {
+									"position": [
+										0,
+										0.2,
+										-0.2
+									]
+								}
+							},
+							"minecraft:movement": {
+								"value": 0.3
+							},
+							"minecraft:input_ground_controlled": {}
+						}
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

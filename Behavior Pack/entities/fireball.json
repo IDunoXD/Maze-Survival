@@ -1,0 +1,138 @@
+{
+  "format_version": "1.12.0",
+ "minecraft:entity": {
+  "description": {
+    "identifier": "minecraft:fireball",
+    "is_spawnable": true,
+    "is_summonable": true,
+    "is_experimental": false
+  },
+
+  "component_groups": {
+   "minecraft:exploding": {
+    "minecraft:explode": {
+     "fuse_length": 0,
+     "fuse_lit": true,
+     "power": 1,
+     "causes_fire": true,
+     "fire_affected_by_griefing": true,
+     "destroy_affected_by_griefing": true
+    }
+   },
+   "minecraft:exploding_3": {
+    "minecraft:explode": {
+     "fuse_length": 0,
+     "fuse_lit": true,
+     "power": 3,
+     "causes_fire": true,
+     "fire_affected_by_griefing": true,
+     "destroy_affected_by_griefing": true
+    }
+   },
+   "minecraft:clear":{
+   	"minecraft:projectile": {
+    
+    "on_hit": {
+     "definition_event": {
+      "affect_projectile": true,
+      "event_trigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+      }
+     }
+    },
+    "power": 1.6,
+    "gravity": 0.00,
+    "inertia": 1,
+    "liquid_inertia": 1,
+    "uncertainty_base": 0,
+    "uncertainty_multiplier": 0,
+    "anchor": 1,
+    "offset": [ 0, -0.1, 0 ],
+    "reflect_on_hurt": true,
+    "catch_fire": true
+   }
+   },
+   "minecraft:add":{
+   	"minecraft:projectile": {
+    "on_hit": {
+     "definition_event": {
+      "affect_projectile": true,
+      "event_trigger": {
+            "event": "minecraft:explode_3",
+            "target": "self"
+      }
+     }
+    },
+    "power": 1.6,
+    "gravity": 0.00,
+    "inertia": 1.1,
+    "liquid_inertia": 1,
+    "uncertainty_base": 1,
+    "uncertainty_multiplier": 0,
+    "anchor": 1,
+    "offset": [ 0, -0.1, 0 ],
+    "reflect_on_hurt": true,
+    "catch_fire": true
+   }
+   }
+  },
+
+  "components": {
+   "minecraft:collision_box": {
+    "width": 0.31,
+    "height": 0.31
+   },
+   "minecraft:projectile": {
+    
+    "on_hit": {
+     "definition_event": {
+      "affect_projectile": true,
+      "event_trigger": {
+            "event": "minecraft:explode",
+            "target": "self"
+      }
+     }
+    },
+    "power": 2,
+    "gravity": 0.00,
+    "inertia": 1,
+    "liquid_inertia": 1,
+    "uncertainty_base": 0,
+    "uncertainty_multiplier": 0,
+    "anchor": -1,
+    "offset": [ 0, -0.1, 0 ],
+    "reflect_on_hurt": true,
+    "catch_fire": true
+   },
+   "minecraft:physics": {
+   },
+   "minecraft:pushable": {
+    "is_pushable": true,
+    "is_pushable_by_piston": true
+   }
+  },
+  "events": {
+   "minecraft:explode": {
+    "add": {
+     "component_groups": [
+      "minecraft:exploding"
+     ]
+    }
+   },
+   "minecraft:spell_spawn": {
+    "remove": {
+     "component_groups":["minecraft:clear"]
+    },
+    "add":{
+    	"component_groups":["minecraft:add"]
+    }
+   },
+   "minecraft:explode_3": {
+    "add": {
+     "component_groups":["minecraft:exploding_3"]
+    }
+	}
+  }
+ }
+}

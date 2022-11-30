@@ -1,0 +1,30 @@
+//bridge-file-version: #82
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.cart": {
+			"states": {
+				"f": {
+					"animations": [
+						"move_f"
+					],
+					"transitions": [
+						{
+							"b": "query.movement_direction(2)<0"
+						}
+					]
+				},
+				"b": {
+					"animations": [
+						"move_b"
+					],
+					"transitions": [
+						{
+							"f": "query.movement_direction(2)>0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

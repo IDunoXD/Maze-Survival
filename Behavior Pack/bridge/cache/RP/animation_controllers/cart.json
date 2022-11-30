@@ -1,0 +1,249 @@
+{
+	"file_path": "C:\\Users\\keks\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP\\animation_controllers\\cart.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "101b6f88_7cf2_485e_b6cb_ca18af6c47d5",
+	"file_version": 82,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.cart": {
+							"states": {
+								"f": {
+									"animations": [
+										"move_f"
+									],
+									"transitions": [
+										{
+											"b": "query.movement_direction(2)<0"
+										}
+									]
+								},
+								"b": {
+									"animations": [
+										"move_b"
+									],
+									"transitions": [
+										{
+											"f": "query.movement_direction(2)>0"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.cart": {
+								"states": {
+									"f": {
+										"animations": [
+											"move_f"
+										],
+										"transitions": [
+											{
+												"b": "query.movement_direction(2)<0"
+											}
+										]
+									},
+									"b": {
+										"animations": [
+											"move_b"
+										],
+										"transitions": [
+											{
+												"f": "query.movement_direction(2)>0"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.cart",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"f": {
+											"animations": [
+												"move_f"
+											],
+											"transitions": [
+												{
+													"b": "query.movement_direction(2)<0"
+												}
+											]
+										},
+										"b": {
+											"animations": [
+												"move_b"
+											],
+											"transitions": [
+												{
+													"f": "query.movement_direction(2)>0"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"f": {
+												"animations": [
+													"move_f"
+												],
+												"transitions": [
+													{
+														"b": "query.movement_direction(2)<0"
+													}
+												]
+											},
+											"b": {
+												"animations": [
+													"move_b"
+												],
+												"transitions": [
+													{
+														"f": "query.movement_direction(2)>0"
+													}
+												]
+											}
+										},
+										"key": "f",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"move_f"
+													],
+													"transitions": [
+														{
+															"b": "query.movement_direction(2)<0"
+														}
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"move_f"
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														"move_f"
+													],
+													"transitions": [
+														{
+															"b": "query.movement_direction(2)<0"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"b": "query.movement_direction(2)<0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"b": "query.movement_direction(2)<0"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"f": {
+												"animations": [
+													"move_f"
+												],
+												"transitions": [
+													{
+														"b": "query.movement_direction(2)<0"
+													}
+												]
+											},
+											"b": {
+												"animations": [
+													"move_b"
+												],
+												"transitions": [
+													{
+														"f": "query.movement_direction(2)>0"
+													}
+												]
+											}
+										},
+										"key": "b",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"move_b"
+													],
+													"transitions": [
+														{
+															"f": "query.movement_direction(2)>0"
+														}
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"move_b"
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														"move_b"
+													],
+													"transitions": [
+														{
+															"f": "query.movement_direction(2)>0"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"f": "query.movement_direction(2)>0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"f": "query.movement_direction(2)>0"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

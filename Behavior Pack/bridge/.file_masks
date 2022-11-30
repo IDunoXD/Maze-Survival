@@ -1,0 +1,110 @@
+{
+	"BP/entities/placeholder.json": {
+		"data": {}
+	},
+	"RP/animations/placeholder.animation.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/placeholder.json": {
+		"data": {}
+	},
+	"RP/entity/placeholder.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"f559a890_76f1_4e56_8810_d1e7eb1f1850": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"628a037b_b981_4e12_a684_296924c826da": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9b30b74b_b870_4cf5_8509_a98e7886032e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"12902ded_cf09_4d68_8e38_0609359c504e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"11f7afcc_912e_4779_90c8_67f8639bee7e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"BP/items/fireball_spell.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/cart.json": {
+		"data": {}
+	},
+	"BP/entities/cart.json": {
+		"data": {}
+	},
+	"RP/entity/cart.json": {
+		"data": {}
+	},
+	"BP/items/Alastor_Staff.json": {
+		"data": {}
+	},
+	"RP/items/Alastor_Staff.json": {
+		"data": {}
+	},
+	"RP/entity/alastor_staff.json": {
+		"data": {}
+	},
+	"RP/items/alastor_staff.json": {
+		"data": {}
+	},
+	"BP/items/alastor_staff.json": {
+		"data": {}
+	},
+	"BP/items/placeholder.json": {
+		"data": {}
+	}
+}

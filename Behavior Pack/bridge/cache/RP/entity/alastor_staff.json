@@ -1,0 +1,100 @@
+{
+	"file_path": "C:\\Users\\keks\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\RP\\entity\\alastor_staff.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "401ac0c2_dde0_4a4c_9232_ed05b336c7c1",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "test:alastor_staff",
+							"textures": {
+								"default": "textures/entity/alastor_staff"
+							},
+							"geometry": {
+								"default": "geometry.alastor_staff"
+							}
+						}
+					}
+				},
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "test:alastor_staff",
+							"textures": {
+								"default": "textures/entity/alastor_staff"
+							},
+							"geometry": {
+								"default": "geometry.alastor_staff"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "test:alastor_staff",
+								"textures": {
+									"default": "textures/entity/alastor_staff"
+								},
+								"geometry": {
+									"default": "geometry.alastor_staff"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "test:alastor_staff",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "test:alastor_staff",
+									"textures": {
+										"default": "textures/entity/alastor_staff"
+									},
+									"geometry": {
+										"default": "geometry.alastor_staff"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/alastor_staff"
+								}
+							},
+							{
+								"open": {
+									"identifier": "test:alastor_staff",
+									"textures": {
+										"default": "textures/entity/alastor_staff"
+									},
+									"geometry": {
+										"default": "geometry.alastor_staff"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.alastor_staff"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
